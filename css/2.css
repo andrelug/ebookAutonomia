@@ -1,0 +1,118 @@
+p {
+    font-family: "ff-tisa-web-pro";
+}
+h1, h2, h3 {
+    font-family: "brandon-grotesque";
+}
+h1 {
+    text-transform: uppercase;
+    color: #fff !important;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    margin-top:0px !important;
+}
+header .data {
+    color: #f5b039 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 4rem !important;
+}
+header .participar {
+    color: #222 !important;
+}
+button {
+    background-color: #f5b039 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+#mc-embedded-subscribe:hover {
+    background-color: #273c75 !important;
+}
+.header {
+    background-color: #4b6584;
+    //background: url(../images/bg.jpg) center center;
+    background-size: cover;
+}
+.noticeTop {
+    margin-bottom: 0px !important;
+    margin-top:14px !important;
+}
+.button .icon:first-child:last-child {
+    margin-left: calc(-.375em - -10px);
+}
+.logo {
+    max-width: 25em;
+}
+.headerLine {
+    width: 100px;
+    height: 3px;
+    background-color: #F5B039;
+    display: inline-block;
+    margin:10px auto 40px;
+}
+.webinario {
+    color: #F5B039 !important;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+.textBlue {
+    color: #273c75 !important;
+}
+section,
+header {
+    padding: 100px 5%;
+}
+section#andrelug {
+    border-bottom: 10px solid #F5B039;
+    background: url(/images/bg2.jpg) left center;
+    background-size: cover;
+}
+section h2:not(.participar) {
+    font-size: 3rem !important;
+    margin-bottom: 100px !important;
+}
+section p {
+    font-size: 1.4rem !important;
+}
+#features .feature svg:not(:root).svg-inline--fa {
+    color: #F5B039;
+}
+footer {
+    background-color: #222;
+}
+footer a, footer img {
+    margin: 15px auto;
+    max-width: 150px !important;
+}
+#andrelug img {
+    max-width: 336px;
+}
+.notice {
+    color: #222;
+    font-weight: bold;
+}
+.field.has-addons {
+    justify-content: center;
+}
+@media screen and (max-width: 769px) {
+    .field.has-addons {
+        display: block;
+    }
+    .field.has-addons .control:last-child .button {
+        width: 100%;
+        margin-top:15px;
+    }
+    .webinario {
+        font-size: 1.3rem !important;
+    }
+    section,
+    header {
+        padding: 50px 5%;
+    }
+    section h2:not(.participar) {
+        font-size: 2.5rem !important;
+        margin-bottom: 40px !important;
+    }
+    section p {
+        font-size: 1.3rem !important;
+    }
+}
