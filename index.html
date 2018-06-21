@@ -255,7 +255,7 @@ src="https://www.facebook.com/tr?id=1736498513298616&ev=PageView
                 
                 $(this).addClass('Disabled').attr('disabled', 'disabled')
                 // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
-                if ( validateEmail($(this).parents('form').find('input').val()) ) {
+                if ( validateEmail($(this).parents('form').find('.email').val()) ) {
                     $(this).text('Processando');
                     $(this).parents('form').submit();
                     // register($(this));
